@@ -1,0 +1,74 @@
+/* top menu */
+.h_bg {border-bottom: 2px solid #d9d9d9; }
+.h_bg header {
+    width: 1374px; margin: 0 273px;
+}
+.h_bg header .top {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+}
+/* top menu left */
+.h_bg header .top .top_left {
+    margin-right: 63px;
+}
+.h_bg header .top .top_left ul {
+    margin: 15px auto; 
+    display: flex;
+}
+.h_bg header .top .top_left ul li {
+    margin-right: 50px;
+}
+.h_bg header .top .top_left ul li:last-child {margin-right: 0;}
+.h_bg header .top .top_left ul li a {}
+.h_bg header .top .top_left ul li .sub {
+    display: none;
+}
+.h_bg header .top .top_left ul li .sub li {}
+.h_bg header .top .top_left ul li .sub li a {}
+/* top menu right */
+.h_bg header .top .top_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h_bg header .top .top_right a {margin-right: 8px;}
+.h_bg header .top .top_right a img {}
+/* main menu */
+.h_bg header .main_menu {
+    display: flex; /* border: 1px solid darkgreen; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+/* logo */
+.h_bg header .main_menu h1 {}
+.h_bg header .main_menu h1 a {}
+.h_bg header .main_menu h1 a img {}
+/* main nav */
+.h_bg header .main_menu nav {}
+.h_bg header .main_menu nav .nav_bg {}
+.h_bg header .main_menu nav .gnb {
+    display: flex;
+}
+.h_bg header .main_menu nav .gnb li {
+    margin-right: 78px;
+}
+.h_bg header .main_menu nav .gnb li a {}
+.h_bg header .main_menu nav .gnb li .sub_menu {
+    display: none;
+}
+.h_bg header .main_menu nav .gnb li .sub_menu .left {}
+.h_bg header .main_menu nav .gnb li .sub_menu .left img {}
+.h_bg header .main_menu nav .gnb li .sub_menu .right {}
+.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub {}
+.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li {}
+.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li a {}
+.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li a img {}
+/* search / ham */
+.h_bg header .main_menu .main_menu_right {}
+.h_bg header .main_menu .main_menu_right a {
+    margin-right: 12px;
+}
+.h_bg header .main_menu .main_menu_right a:last-child {margin-right: 0;}
+.h_bg header .main_menu .main_menu_right a img {}
