@@ -1,10 +1,9 @@
 /* top menu */
-.h_bg {border-bottom: 2px solid #d9d9d9; }
+.h_bg {border-bottom: 2px solid #eceaea; }
 .h_bg header {
-    width: 1374px; margin: 0 273px;
+    width: 1374px; margin: 0 auto;
 }
 .h_bg header .top {
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: flex-end;
 }
@@ -22,9 +21,34 @@
 .h_bg header .top .top_left ul li:last-child {margin-right: 0;}
 .h_bg header .top .top_left ul li a {}
 .h_bg header .top .top_left ul li .sub {
-    display: none;
+    position: absolute;
+    display: none; /* 자바스크립트 -> 동적기능할 때 flex로 바꿔야함 */
 }
-.h_bg header .top .top_left ul li .sub li {}
+.h_bg header .top .top_left ul li:nth-child(1) .sub {
+    /* display: flex; */ flex-flow: column nowrap;
+    padding: 18px 0 0 22px;
+    background-color: #fff; 
+    border-radius: 5px;
+    box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.25);
+    width: 138px; height: 272px;
+}
+.h_bg header .top .top_left ul li:nth-child(2) .sub {
+    background-color: #fff; box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 128px; height: 49px;
+    padding: 18px 0 0 22px;
+}
+.h_bg header .top .top_left ul li:nth-child(4) .sub {
+    /* display: flex;  */flex-flow: column nowrap;
+    background-color: #fff; box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 191px; height: 193px;
+    padding: 18px 0 0 22px;
+}
+.h_bg header .top .top_left ul li .sub li {
+    margin-bottom: 27px;
+}
+.h_bg header .top .top_left ul li .sub li:last-child {margin-bottom: 0;}
 .h_bg header .top .top_left ul li .sub li a {}
 /* top menu right */
 .h_bg header .top .top_right {
@@ -36,13 +60,16 @@
 .h_bg header .top .top_right a img {}
 /* main menu */
 .h_bg header .main_menu {
-    display: flex; /* border: 1px solid darkgreen; */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
+    border: 1px solid blue;
 }
 /* logo */
-.h_bg header .main_menu h1 {}
+.h_bg header .main_menu h1 {
+    border: 1px solid green;
+}
 .h_bg header .main_menu h1 a {}
 .h_bg header .main_menu h1 a img {}
 /* main nav */
@@ -50,18 +77,25 @@
 .h_bg header .main_menu nav .nav_bg {}
 .h_bg header .main_menu nav .gnb {
     display: flex;
+    border: 1px solid red;
+    position: absolute;
 }
 .h_bg header .main_menu nav .gnb li {
     margin-right: 78px;
 }
 .h_bg header .main_menu nav .gnb li a {}
-.h_bg header .main_menu nav .gnb li .sub_menu {
+.h_bg header .main_menu nav .gnb li .sub_menu {}
+.h_bg header .main_menu nav .gnb li .sub_menu .left {
+    margin-top: 49px;
+}
+.h_bg header .main_menu nav .gnb li .sub_menu .left img {}
+.h_bg header .main_menu nav .gnb li .sub_menu .right {
+    display: flex; 
+}
+.h_bg header .main_menu nav .gnb li .sub_menu .right {}
+.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub {
     display: none;
 }
-.h_bg header .main_menu nav .gnb li .sub_menu .left {}
-.h_bg header .main_menu nav .gnb li .sub_menu .left img {}
-.h_bg header .main_menu nav .gnb li .sub_menu .right {}
-.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub {}
 .h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li {}
 .h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li a {}
 .h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li a img {}
