@@ -122,31 +122,30 @@
     margin-left: 120px;
 } 
 .h_bg header .main_menu nav .gnb li .sub_menu .right {}
-.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub {
+.h_bg header .main_menu nav .gnb li .sub_menu .right .main_sub {
     width: 25%;
 }
-.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li {
+.h_bg header .main_menu nav .gnb li .sub_menu .right .main_sub li {
     margin-bottom: 18px;
     color: #444;
 }
-.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li:last-child {
+.h_bg header .main_menu nav .gnb li .sub_menu .right .main_sub li:last-child {
     margin-bottom: 90px;
 }
-.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li a {
+.h_bg header .main_menu nav .gnb li .sub_menu .right .main_sub li a {
     display: flex; 
     align-items: center;
 }
-.h_bg header .main_menu nav .gnb li .sub_menu .right .it_sub li a img {}
-/* ========안전 장비 건설 서브메뉴 */
-.h_bg header .main_menu nav .gnb li .sub_menu_saf {
+.h_bg header .main_menu nav .gnb li .sub_menu .right .main_sub li a img {}
+/* ====================================================== */
+/* .h_bg header .main_menu nav .gnb li .sub_menu_saf {
     z-index: 2;
     position: absolute; left: 50%; top: 151px;
     transform: translateX(-50%);
-    /* background-color: aqua;  */
     display: flex;
     width: 1374px; margin: 0 auto;
     position: absolute; left: 50%; top: 151px; padding-top: 106px;
-    display: none; /* 메인메뉴 서브 가리는 태그 */
+    display: none; 
 }
 .h_bg header .main_menu nav .gnb li .sub_menu_saf .left {}
 .h_bg header .main_menu nav .gnb li .sub_menu_saf .left::after {
@@ -155,10 +154,10 @@
     position: absolute; left: 300px; top: 105px;
     height: 510px; 
     border-right: 1px solid #444;
-    padding-right: 60px;
+    padding-right: 60px; 
 
 }
-.h_bg header .main_menu nav .gnb li .sub_menu_saf .left img {}/* 서브 사진 */
+.h_bg header .main_menu nav .gnb li .sub_menu_saf .left img {}
 .h_bg header .main_menu nav .gnb li .sub_menu_saf .right {
     display: flex;
     flex-flow: row wrap;
@@ -177,16 +176,14 @@
 .h_bg header .main_menu nav .gnb li .sub_menu_saf .right .saf_sub li a {
     display: flex; align-items: center;
 }
-.h_bg header .main_menu nav .gnb li .sub_menu_saf .right .saf_sub li a img {}/* 화살표 */
-/* ========계측기기 서브 메뉴 */
+.h_bg header .main_menu nav .gnb li .sub_menu_saf .right .saf_sub li a img {}
 .h_bg header .main_menu nav .gnb li .sub_menu_dvi {
-    /* background-color: lightblue; */
     z-index: 2;
     transform: translateX(-50%);
     display: flex;
     position: absolute; left: 50%; top: 151px; padding-top: 106px;
     width: 1374px; margin: 0 auto;
-    display: none; /* 메인메뉴 서브 가리는 태그 */
+    display: none;
 }
 .h_bg header .main_menu nav .gnb li .sub_menu_dvi .left {}
 .h_bg header .main_menu nav .gnb li .sub_menu_dvi .left::after {
@@ -217,7 +214,7 @@
     align-items: center;
 }
 .h_bg header .main_menu nav .gnb li .sub_menu_dvi .right .dvi_sub li a img {}
-/* ========================================== */
+ */
 /* search / ham */
 .h_bg header .main_menu .main_menu_right {}
 .h_bg header .main_menu .main_menu_right a {
