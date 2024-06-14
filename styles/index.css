@@ -224,29 +224,66 @@
 .h_bg header .main_menu .main_menu_right a img {}
 /* swiper 1번째 */
 main {
-    width: 1374px; margin: 0 auto;
+    width: 1920px; margin: 0 auto;
     display: flex;
 }
-main .rental {}
 /* 왼쪽 화살표 */
-main .rental .left_arrow {}
+main .left_arrow {
+    padding-left: 99px;
+    display: flex; align-items: center;
+}
 main .rental .left_arrow img {}
-main .rental .swiper_check {}
-main .rental .swiper_check p {}
-main .rental .swiper_check span {}
+main .rental {
+    width: 1374px; margin: 0 auto;
+    display: flex; justify-content: space-between;
+    margin-top: 43px;
+}
 main .rental .swiper {}
 main .rental .main-slide {}
+/* ----------------------------------------------------------- */
 main .rental .swiper .swiper-wrapper {}
 main .rental .swiper .swiper-wrapper .swiper-slide {}
-main .rental .swiper .swiper-wrapper .swiper-slide a {}
-main .rental .swiper .swiper-wrapper .swiper-slide a img {}
+/* ----------------------------------------------------------- */
+main .rental .swiper .swiper-wrapper .swiper-slide .page {
+    display: flex;
+}
+main .rental .swiper .swiper-wrapper .swiper-slide .page .swiper_check {
+    width: 225px; height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 87px;
+}
+main .rental .swiper .swiper-wrapper .swiper-slide .page .swiper_check > p {}
+main .rental .swiper .swiper-wrapper .swiper-slide .page .swiper_check .line {
+    width: 146px; height: 2px; 
+    background-color: #cbcbcb;
+    margin: 0 17px;
+}
+main .rental .swiper .swiper-wrapper .swiper-slide .page .swiper_check .line .dark_line {}
+main .rental .swiper .swiper-wrapper .swiper-slide .page .slide_img {
+    margin-left: 94px; /* background-repeat: no-repeat; */
+}
+main .rental .swiper .swiper-wrapper .swiper-slide .page .slide_img img {
+    width: 902px; height: 548px;
+}
 /* swiper 내용 - 공통선택자 */
-main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents {}
-main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents h2 {
+main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents {}
+main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents h2 {
     font-size: 3.125rem; font-weight: 700;
 }
-main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents p {}
-main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents button {}
+main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents > p {
+    font-size: 1.125rem; color: #888888;
+    line-height: 0.2;
+}
+main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents button {
+    width: 219px; height: 56px; 
+    border: 1px solid #000; border-radius: 30px;
+}
 /* 오른쪽 화살표 */
-main .rental .right_arrow {}
-main .rental .right_arrow img {}
+main .right_arrow {
+    padding-right: 99px;
+    display: flex; align-items: center;
+}
+main .right_arrow img {}
+/* ================================= */
