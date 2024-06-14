@@ -222,3 +222,31 @@
 }
 .h_bg header .main_menu .main_menu_right a:last-child {margin-right: 0;}
 .h_bg header .main_menu .main_menu_right a img {}
+/* swiper 1번째 */
+main {
+    width: 1374px; margin: 0 auto;
+    display: flex;
+}
+main .rental {}
+/* 왼쪽 화살표 */
+main .rental .left_arrow {}
+main .rental .left_arrow img {}
+main .rental .swiper_check {}
+main .rental .swiper_check p {}
+main .rental .swiper_check span {}
+main .rental .swiper {}
+main .rental .main-slide {}
+main .rental .swiper .swiper-wrapper {}
+main .rental .swiper .swiper-wrapper .swiper-slide {}
+main .rental .swiper .swiper-wrapper .swiper-slide a {}
+main .rental .swiper .swiper-wrapper .swiper-slide a img {}
+/* swiper 내용 - 공통선택자 */
+main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents {}
+main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents h2 {
+    font-size: 3.125rem; font-weight: 700;
+}
+main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents p {}
+main .rental .swiper .swiper-wrapper .swiper_slide .swiper_contents button {}
+/* 오른쪽 화살표 */
+main .rental .right_arrow {}
+main .rental .right_arrow img {}
