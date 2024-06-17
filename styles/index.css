@@ -223,78 +223,153 @@
 .h_bg header .main_menu .main_menu_right a:last-child {margin-right: 0;}
 .h_bg header .main_menu .main_menu_right a img {}
 /* swiper 1번째 */
-main {
-    width: 1920px; margin: 0 auto;
-    display: flex;
+main {}
+main .main_1 {
+    display: flex; justify-content: space-between;
+    margin: 0 auto; width: 100%; align-items: center;
 }
 /* 왼쪽 화살표 */
-main .left_arrow {
+main .main_1 .left_arrow {
     padding-left: 99px;
     display: flex; align-items: center;
 }
-main .rental .left_arrow img {}
-main .rental {
+main .main_1 .rental .left_arrow img {}
+main .main_1 .rental {
     width: 1374px; margin: 0 auto;
     display: flex; justify-content: space-between;
     margin-top: 43px;
 }
-main .rental .swiper {}
-main .rental .main-slide {}
+main .main_1 .rental .swiper {}
+main .main_1 .rental .main-slide {}
 /* ----------------------------------------------------------- */
-main .rental .swiper .swiper-wrapper {}
-main .rental .swiper .swiper-wrapper .swiper-slide {}
+main .main_1 .rental .swiper .swiper-wrapper {}
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide {}
 /* ----------------------------------------------------------- */
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental {
     display: flex;
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page {
     display: flex; flex-flow: column nowrap;
     margin: 0 8px;
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check {
     width: 225px; height: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 87px;
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check > p {}
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check .line {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check > p {}
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check .line {
     width: 146px; height: 2px; 
     background-color: #cbcbcb;
     margin: 0 17px;
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check .line .dark_line {}
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .slide_img {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check .line .dark_line {}
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .slide_img {
     /* background-repeat: no-repeat; */
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .slide_img img {}
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .slide_img img {}
 /* swiper 내용 - 공통선택자 */
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents {
     /* border: 1px solid blue; */
     width: 450px;
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents h2 {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents h2 {
     font-size: 3.125rem; font-weight: 700;
     margin-bottom: 48px; 
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents > p {
-    font-size: 1.125rem; color: #888888;
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents > p {
+    font-size: 0.938rem; color: #585858;
     line-height: 0.2;
     margin-bottom: 188px;
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents button {
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents button {
     width: 219px; height: 56px; 
     border: 1px solid #000; border-radius: 30px;
     color: #005A9C;
     border-color: #005A9C;
     margin-bottom: 32px;
+    background-color: #fff;
 }
 /* 오른쪽 화살표 */
-main .right_arrow {
+main .main_1 .right_arrow {
     padding-right: 99px;
     display: flex; align-items: center;
     text-align: center;
 }
-main .right_arrow img {}
+main .main_1 .right_arrow img {}
+main .main_1 {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #eceaea;
+}
 /* ================================= */
+main .main_2 {
+    margin: 0 auto; 
+}
+main .main_2 .main2_title {
+    text-align: center; /* border: 1px solid red; */
+}
+main .main_2 .main2_title > p {
+    padding-top: 103px;
+    font-size: 0.938rem; color: #727472;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+main .main_2 .main2_title > h2 {
+    font-weight: 300; font-size: 2.5rem;
+    color: #005A9C;
+}
+main .main_2 .main2_title > h2 span {
+    font-weight: 700; font-size: 2.5rem;
+    color: #005A9C;
+}
+main .main_2 .product_menu {
+    width: 1374px; margin: 0 auto;
+    margin-top: 93px;
+    display: flex; justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+}
+main .main_2 .product_menu ul {
+    display: flex; align-items: center;
+}
+main .main_2 .product_menu ul li {
+    font-size: 1.063rem;
+}
+main .main_2 .product_menu ul li::after {
+    content: '';
+    height: 6px; 
+    border: 0.5px solid #d9d9d9;
+    margin: 0 21px;
+}
+main .main_2 .product_menu ul li a {}
+main .main_2 .product_menu .full_view {}
+main .main_2 .product_menu .full_view p {
+    display: flex; align-items: center; text-align: center;
+}
+main .main_2 .product_menu .full_view p img {}
+/* swiper - 우리 회사에 딱 맞는 제품을 찾아보세요 메뉴들 */
+main .main_2 .product_swiper {
+    width: 1374px; margin: 0 auto;
+    margin-bottom: 115px;
+}
+/* -------------------------------- */
+main .main_2 .product_swiper .swiper {}
+main .main_2 .product_swiper .product-slide {}
+main .main_2 .product_swiper .swiper .swiper-wrapper {}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide {}
+/* -------------------------------- */
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s {
+    display: flex; border: 1px solid red;
+}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul {}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li {
+    text-align: center; border: 1px solid blue;
+}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li a {}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li a img {}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li a p {
+    font-size: 0.938rem; 
+    margin-top: 13px;
+}
