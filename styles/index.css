@@ -337,6 +337,9 @@ main .main_2 .product_menu ul {
 main .main_2 .product_menu ul li {
     font-size: 1.063rem;
 }
+main .main_2 .product_menu ul li:first-child a {
+    font-weight: 700;
+}
 main .main_2 .product_menu ul li::after {
     content: '';
     height: 6px; 
@@ -361,15 +364,51 @@ main .main_2 .product_swiper .swiper .swiper-wrapper {}
 main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide {}
 /* -------------------------------- */
 main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s {
-    display: flex; border: 1px solid red;
+    /* display: flex; */
 }
-main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul {}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul {
+    /* padding-left: 80px; */
+}
 main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li {
-    text-align: center; border: 1px solid blue;
+    text-align: center;
 }
 main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li a {}
-main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li a img {}
+main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li a img {
+    /* width: 100%; */ 
+}
 main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul li a p {
     font-size: 0.938rem; 
-    margin-top: 13px;
+    /* margin-top: 13px; */
 }
+main .main_2 .product_swiper .swiper .swiper-button-next {color: #929492;}
+main .main_2 .product_swiper .swiper .swiper-button-prev {color: #929492;}
+/* ============================================================ */
+main .main_3 {
+    width: 1374px; margin: 0 auto;
+    display: flex;
+}
+main .main_3 .main3_left {}
+main .main_3 .main3_left h3 {
+    font-size: 1.875rem; font-weight: 600;
+    margin-bottom: 93px;
+}
+main .main_3 .main3_left ul {}
+main .main_3 .main3_left ul li {
+    font-size: 1.125rem;
+    margin-bottom: 25px;
+}
+main .main_3 .main3_left ul li:last-child {margin-bottom: 0;}
+main .main_3 .main3_left ul li a {}
+main .main_3 .main3_left .deco_line {
+    width: 479px; 
+    border: 1px solid #cbcbcb;
+    margin: 50px 0 ;
+}
+main .main_3 .main3_left .consulting_btn {
+    background-color: #fff;
+    width: 221px; height: 59px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+main .main_3 .main3_right {}
+main .main_3 .main3_right img {}
