@@ -292,6 +292,9 @@ main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page 
     margin-bottom: 32px;
     background-color: #fff;
 }
+main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents button:hover {
+    background-color: #005A9C; color: #fff;
+}
 /* 오른쪽 화살표 */
 main .main_1 .right_arrow {
     padding-right: 99px;
@@ -313,7 +316,6 @@ main .main_2 .main2_title {
 main .main_2 .main2_title > p {
     padding-top: 103px;
     font-size: 0.938rem; color: #727472;
-    font-weight: 500;
     padding-bottom: 45px;
 }
 main .main_2 .main2_title > h2 {
@@ -423,5 +425,36 @@ main .main_3 .main3_left .consulting_btn {
     border: 1px solid #000;
     border-radius: 30px;
 }
+main .main_3 .main3_left .consulting_btn:hover {
+    background-color: #0D5CAB; color: #fff;
+    border: 0;
+}
 main .main_3 .main3_right {}
 main .main_3 .main3_right img {}
+/* ===================================================== */
+main .main_4_bg {
+    width: 100%; background-color: #F7FBFE;
+    margin-top: 155px;
+}/* 배경 색 */
+main .main_4_bg .main_4 {
+    width: 1374px; padding-top: 0 auto;
+}
+main .main_4_bg .main_4 .main4_title {
+    text-align: center;
+}
+main .main_4_bg .main_4 .main4_title p {
+    font-size: 0.938rem; color: #727472;
+}
+main .main_4_bg .main_4 .main4_title p h2 {
+    font-size: 2.5rem; font-weight: 300;
+}
+main .main_4_bg .main_4 .main4_title p h2 span {
+    font-size: 2.5rem; font-weight: 700;
+}
+main .main_4_bg .main_4 .sns {}
+main .main_4_bg .main_4 .sns a {}
+main .main_4_bg .main_4 .sns a img {}
+main .main_4_bg .main_4 .main4_contents {}
+main .main_4_bg .main_4 .main4_contents a {}
+main .main_4_bg .main_4 .main4_contents a img {}
+main .main_4_bg .main_4 .main4_contents a p{}
