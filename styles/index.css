@@ -249,6 +249,7 @@ main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental {
 }
 main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page {
     display: flex; flex-flow: column nowrap;
+    margin: 0 8px;
 }
 main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check {
     width: 225px; height: 22px;
@@ -265,23 +266,29 @@ main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_
 }
 main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_check .line .dark_line {}
 main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .slide_img {
-    margin-left: 94px; /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat; */
 }
-main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .slide_img img {
-    width: 902px; height: 548px;
-}
+main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .slide_img img {}
 /* swiper 내용 - 공통선택자 */
-main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents {}
-main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents h2 {
-    font-size: 3.125rem; font-weight: 700;
+main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents {
+    /* border: 1px solid blue; */
+    width: 450px;
 }
-main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents > p {
+main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents h2 {
+    font-size: 3.125rem; font-weight: 700;
+    margin-bottom: 48px; 
+}
+main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents > p {
     font-size: 1.125rem; color: #888888;
     line-height: 0.2;
+    margin-bottom: 188px;
 }
-main .rental .swiper .swiper-wrapper .swiper_slide .page .swiper_contents button {
+main .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents button {
     width: 219px; height: 56px; 
     border: 1px solid #000; border-radius: 30px;
+    color: #005A9C;
+    border-color: #005A9C;
+    margin-bottom: 32px;
 }
 /* 오른쪽 화살표 */
 main .right_arrow {
