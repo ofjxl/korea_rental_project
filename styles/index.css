@@ -348,10 +348,10 @@ main .main_2 .product_menu ul li::after {
 }
 main .main_2 .product_menu ul li a {}
 main .main_2 .product_menu .full_view {}
-main .main_2 .product_menu .full_view p {
+main .main_2 .product_menu .full_view a {
     display: flex; align-items: center; text-align: center;
 }
-main .main_2 .product_menu .full_view p img {}
+main .main_2 .product_menu .full_view a img {}
 /* swiper - 우리 회사에 딱 맞는 제품을 찾아보세요 메뉴들 */
 main .main_2 .product_swiper {
     width: 1374px; margin: 0 auto;
@@ -380,8 +380,16 @@ main .main_2 .product_swiper .swiper .swiper-wrapper .swiper-slide .main2_p_s ul
     font-size: 0.938rem; 
     /* margin-top: 13px; */
 }
-main .main_2 .product_swiper .swiper .swiper-button-next {color: #929492;}
-main .main_2 .product_swiper .swiper .swiper-button-prev {color: #929492;}
+main .main_2 .product_swiper .swiper .swiper-button-next {
+    color: #929492;
+    /* border: 1px solid red; */
+    padding-left: 58px;
+}
+main .main_2 .product_swiper .swiper .swiper-button-prev {
+    color: #929492;
+    /* border: 1px solid red; */
+    padding-right: 58px;
+}
 /* ============================================================ */
 main .main_3 {
     width: 1374px; margin: 0 auto;
@@ -396,6 +404,11 @@ main .main_3 .main3_left ul {}
 main .main_3 .main3_left ul li {
     font-size: 1.125rem;
     margin-bottom: 25px;
+}
+main .main_3 .main3_left ul li a:hover {
+    font-size: 1.188rem;
+    font-weight: 600;
+    color: #0D5CAB;
 }
 main .main_3 .main3_left ul li:last-child {margin-bottom: 0;}
 main .main_3 .main3_left ul li a {}
