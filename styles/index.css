@@ -434,16 +434,18 @@ main .main_3 .main3_right img {}
 /* ===================================================== */
 main .main_4_bg {
     width: 100%; background-color: #F7FBFE;
-    margin-top: 155px;
+    margin-top: 155px; 
 }/* 배경 색 */
 main .main_4_bg .main_4 {
-    width: 1374px; padding-top: 0 auto;
+    width: 1526px; padding-top: 0 auto; 
+    margin: 0 auto; 
 }
 main .main_4_bg .main_4 .main4_title {
     text-align: center;
 }
 main .main_4_bg .main_4 .main4_title p {
     font-size: 0.938rem; color: #727472;
+    padding-top: 80px; padding-bottom: 45px;
 }
 main .main_4_bg .main_4 .main4_title p h2 {
     font-size: 2.5rem; font-weight: 300;
@@ -451,10 +453,74 @@ main .main_4_bg .main_4 .main4_title p h2 {
 main .main_4_bg .main_4 .main4_title p h2 span {
     font-size: 2.5rem; font-weight: 700;
 }
-main .main_4_bg .main_4 .sns {}
-main .main_4_bg .main_4 .sns a {}
-main .main_4_bg .main_4 .sns a img {}
-main .main_4_bg .main_4 .main4_contents {}
-main .main_4_bg .main_4 .main4_contents a {}
+main .main_4_bg .main_4 .sns {
+    width: 1035px;
+    margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 45px; padding-bottom: 101px;
+    text-align: center;
+}
+main .main_4_bg .main_4 .sns a {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /* margin-right: 238px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+main .main_4_bg .main_4 .sns a:last-child {margin-right: 0;}
+main .main_4_bg .main_4 .sns a img {
+    margin-right: 45px;
+}
+main .main_4_bg .main_4 .main4_contents {
+    display: flex; 
+}
+main .main_4_bg .main_4 .main4_contents a {
+    margin-right: 40px; text-align: center;
+}
+main .main_4_bg .main_4 .main4_contents a:last-child {margin-right: 0;}
 main .main_4_bg .main_4 .main4_contents a img {}
-main .main_4_bg .main_4 .main4_contents a p{}
+main .main_4_bg .main_4 .main4_contents a p{
+    margin-top: 23px; padding-bottom: 93px;
+}
+/* ===================================================== */
+main .main_5_bg {
+    background-color: #F6F6F6;
+}
+main .main_5_bg .main_5 {
+    width: 1374px; margin: 0 auto;
+}
+main .main_5_bg .main_5 .main5_title {
+    text-align: center;
+}
+main .main_5_bg .main_5 .main5_title p {
+    padding-top: 140px; margin-bottom: 45px;
+    color: #727472;
+}
+main .main_5_bg .main_5 .main5_title h2 {
+    font-size: 2.5rem; font-weight: 300;
+    margin-bottom: 87px;
+}
+main .main_5_bg .main_5 .main5_title h2 span {
+    font-size: 2.5rem; font-weight: 700;
+}
+main .main_5_bg .main_5 .main5_contents {
+    padding-bottom: 245px;
+}
+main .main_5_bg .main_5 .main5_contents ul {
+    display: flex; justify-content: space-between;
+}
+main .main_5_bg .main_5 .main5_contents ul li {
+    width: 324px; height: 296px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 51px 40px;
+}
+main .main_5_bg .main_5 .main5_contents ul li img {}
+main .main_5_bg .main_5 .main5_contents ul li h3 {
+    font-size: 1.25rem; font-weight: 600;
+    margin: 16px 0;
+}
+main .main_5_bg .main_5 .main5_contents ul li p {line-height: -2;}
+/* ===================================================== */
