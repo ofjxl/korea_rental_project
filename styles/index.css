@@ -517,12 +517,13 @@ main .main_5_bg .main_5 .main5_contents ul li {
     text-align: center;
     padding: 51px 40px;
 }
-main .main_5_bg .main_5 .main5_contents ul li img {}
-main .main_5_bg .main_5 .main5_contents ul li h3 {
+main .main_5_bg .main_5 .main5_contents ul li a {}
+main .main_5_bg .main_5 .main5_contents ul li a img {}
+main .main_5_bg .main_5 .main5_contents ul li a h3 {
     font-size: 1.25rem; font-weight: 600;
     margin: 16px 0;
 }
-main .main_5_bg .main_5 .main5_contents ul li p {line-height: -2;}
+main .main_5_bg .main_5 .main5_contents ul li a p {line-height: -2;}
 /* ===================================================== */
 main .main_6_bg {
     background-color: #2F2F2F;
