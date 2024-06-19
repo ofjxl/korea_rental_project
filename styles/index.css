@@ -524,3 +524,84 @@ main .main_5_bg .main_5 .main5_contents ul li h3 {
 }
 main .main_5_bg .main_5 .main5_contents ul li p {line-height: -2;}
 /* ===================================================== */
+main .main_6_bg {
+    background-color: #2F2F2F;
+}
+main .main_6_bg .main_6 {
+    width: 1374px; margin: 0 auto;
+    display: flex; justify-content: space-between;
+    padding-top: 70px; padding-bottom: 96px;
+}
+main .main_6_bg .main_6 .footer_left {}
+main .main_6_bg .main_6 .footer_left .footer_l_top {
+    display: flex; align-items: center;
+    margin-bottom: 34px;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_top h1 {}
+main .main_6_bg .main_6 .footer_left .footer_l_top h1::after {
+    content: '';
+    width: 1px; height: 58px;
+    color: #fff; margin-left: 17px; margin-right: 17px;
+}/* 왜 안될까  */
+main .main_6_bg .main_6 .footer_left .footer_l_top h1 a {}
+main .main_6_bg .main_6 .footer_left .footer_l_top h1 a img {}
+main .main_6_bg .main_6 .footer_left .footer_l_top a {
+    font-size: 0.875rem; font-weight: 500;
+    color: #C2BEBE;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_top a span {
+    font-size: 1.875rem; font-weight: 500;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_bottom {
+    padding-left: 9px;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_bottom .address {
+    color: #C2BEBE;
+    font-size: 0.813rem; font-weight: 500;
+    margin-bottom: 17px;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_bottom .copyright {
+    color: #C2BEBE;
+    font-size: 0.813rem; font-weight: 500;
+    margin-bottom: 27px;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_bottom ul {
+    display: flex;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_bottom ul li {}
+main .main_6_bg .main_6 .footer_left .footer_l_bottom ul li::after {
+    content: '|';
+    margin-left: 7px; margin-right: 7px;
+    color: #fff;
+}
+main .main_6_bg .main_6 .footer_left .footer_l_bottom ul li:last-child::after {display: none;} 
+main .main_6_bg .main_6 .footer_left .footer_l_bottom ul li a {
+    font-size: 0.938rem; font-weight: 500; color: #fff;
+}
+/* 오른쪽  */
+main .main_6_bg .main_6 .footer_right {}
+/* 회사소개다운로드, family site 버튼 */
+main .main_6_bg .main_6 .footer_right .main6_btn {
+    display: flex; align-items: center;
+}
+main .main_6_bg .main_6 .footer_right .main6_btn .down_btn {
+    width: 219px; height: 49px;
+    border-radius: 30px; border: 0;
+    background-color: #4696DC;
+    display: flex; align-items: center;
+    justify-content: center;
+    color: #fff; font-weight: 500; letter-spacing: 0.2px;
+    margin-right: 16px;
+}
+main .main_6_bg .main_6 .footer_right .main6_btn .down_btn img {
+    margin-right: 5.5px;
+}
+main .main_6_bg .main_6 .footer_right .main6_btn .family_btn {}
+/* sns 종류들 */
+main .main_6_bg .main_6 .footer_right .footer_sns {
+    margin-top: 49px;
+}
+main .main_6_bg .main_6 .footer_right .footer_sns a {
+    margin-right: 28px;
+}
+main .main_6_bg .main_6 .footer_right .footer_sns a img {}
