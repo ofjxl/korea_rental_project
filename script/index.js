@@ -1,7 +1,8 @@
-const main_s = new Swiper('.main-slide',{
+const main_s = new Swiper(".main-slide",{
+    loop: true,
     navigation:{
-        nextEl:".main-slide .swiper-button-next",
-        prevEl:".main-slide .swiper-button-prev",
+        nextEl: ".rental .swiper-button-next",
+        prevEl: ".rental .swiper-button-prev",
     },
 })
 const product_s = new Swiper(".product-slide",{
