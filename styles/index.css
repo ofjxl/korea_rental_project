@@ -435,16 +435,17 @@ main .main_4_bg .main_4 {
     margin: 0 auto; 
 }
 main .main_4_bg .main_4 .main4_title {
-    text-align: center;
+    text-align: center; 
 }
 main .main_4_bg .main_4 .main4_title p {
     font-size: 0.938rem; color: #727472;
     padding-top: 80px; padding-bottom: 45px;
 }
-main .main_4_bg .main_4 .main4_title p h2 {
+main .main_4_bg .main_4 .main4_title h2 {
     font-size: 2.5rem; font-weight: 300;
+    color: #0D5CAB;
 }
-main .main_4_bg .main_4 .main4_title p h2 span {
+main .main_4_bg .main_4 .main4_title h2 span {
     font-size: 2.5rem; font-weight: 700;
 }
 main .main_4_bg .main_4 .sns {
@@ -493,7 +494,7 @@ main .main_5_bg .main_5 .main5_title p {
 }
 main .main_5_bg .main_5 .main5_title h2 {
     font-size: 2.5rem; font-weight: 300;
-    margin-bottom: 87px;
+    margin-bottom: 87px; color: #0D5CAB;
 }
 main .main_5_bg .main_5 .main5_title h2 span {
     font-size: 2.5rem; font-weight: 700;
