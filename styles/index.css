@@ -5,13 +5,25 @@
     text-align: right;
     position: fixed; bottom: 20px; right: 10px;
 }
-.popup .chatting {
-    /* border: 1px solid red; */
+.popup .speech_bubble {
+    width: 253px; height: 64px;
+    border-radius: 30px;
+    background-color: #0D5CAB;
     margin-bottom: 53px;
+    padding-left: 30px; padding-top: 20px;
+    position: relative;
 }
-.popup .chatting img {
-    width: 260px;
+.popup .speech_bubble a {
+    display: flex; 
+    text-align: center;
 }
+.popup .speech_bubble a span {
+    color: #fff; 
+    font-size: 0.875rem; font-weight: 600; letter-spacing: 0.2px;
+    line-height: 200%;
+    margin-right: 12px;
+}
+.popup .speech_bubble a span img {}
 .popup .inquiry {
     /* border: 1px solid blue; */
     margin-bottom: 15px;
@@ -23,8 +35,9 @@
     margin-right: 11px;
 } 
 .popup .upward img {
-    box-shadow: 3px 3px 5px #585858;
+    /* box-shadow: 3px 3px 5px #585858; */
     border-radius: 50%;
+    border: 1px solid #d3d3d3;
 }
 /* =============================메인 페이지=============================== */
 /* top menu */
@@ -547,7 +560,9 @@ main .main_5_bg .main_5 .main5_contents ul li a h3 {
     font-size: 1.25rem; font-weight: 600;
     margin: 16px 0;
 }
-main .main_5_bg .main_5 .main5_contents ul li a p {line-height: -2;}
+main .main_5_bg .main_5 .main5_contents ul li a p {
+    letter-spacing: 0.2px; line-height: 180%;
+}
 /* ===================================================== */
 main .main_6_bg {
     background-color: #2F2F2F;
