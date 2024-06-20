@@ -1,4 +1,5 @@
 const main_s = new Swiper(".main-slide",{
+    autoplay: {delay:3000},
     loop: true,
     navigation:{
         nextEl: ".rental .swiper-button-next",
