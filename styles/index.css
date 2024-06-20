@@ -1,3 +1,32 @@
+/* =============팝업============= */
+.popup {
+    display: flex; flex-flow: column nowrap;
+    /* background-color: skyblue;  */
+    text-align: right;
+    position: fixed; bottom: 20px; right: 10px;
+}
+.popup .chatting {
+    /* border: 1px solid red; */
+    margin-bottom: 53px;
+}
+.popup .chatting img {
+    width: 300px;
+}
+.popup .inquiry {
+    /* border: 1px solid blue; */
+    margin-bottom: 15px;
+    margin-right: 11px
+}
+.popup .inquiry img {}
+.popup .upward {
+    /* border: 1px solid green; */
+    margin-right: 11px;
+} 
+.popup .upward img {
+    box-shadow: 3px 3px 5px #585858;
+    border-radius: 50%;
+}
+/* =============================메인 페이지=============================== */
 /* top menu */
 .h_bg {border-bottom: 2px solid #eceaea; }
 .h_bg header {
@@ -534,15 +563,14 @@ main .main_6_bg .main_6 .footer_left .footer_l_top {
     margin-bottom: 34px;
 }
 main .main_6_bg .main_6 .footer_left .footer_l_top h1 {
-    /* border: 1px solid blue; */
-    display: inline;
-    margin-right: 17px;
+    border-right: 1px solid #C2BEBE;
+    padding-right: 17px;
 }
 main .main_6_bg .main_6 .footer_left .footer_l_top h1 a {}
 main .main_6_bg .main_6 .footer_left .footer_l_top h1 a img {}
 main .main_6_bg .main_6 .footer_left .footer_l_top > a {
     margin-left: 17px;
-    /* border: 1px solid red; */ display: inline-block;
+    display: inline-block;
     font-size: 0.875rem; font-weight: 500;
     color: #C2BEBE;
 }
@@ -634,4 +662,3 @@ main .main_6_bg .main_6 .footer_right .footer_sns a {
 }
 main .main_6_bg .main_6 .footer_right .footer_sns a:last-child {margin-right: 0;}
 main .main_6_bg .main_6 .footer_right .footer_sns a img {}
-/* ========================================================= */
