@@ -228,12 +228,6 @@ main .main_1 {
     display: flex; justify-content: space-between;
     margin: 0 auto; width: 100%; align-items: center;
 }
-/* 왼쪽 화살표 */
-/* main .main_1 .left_arrow {
-    padding-left: 99px;
-    display: flex; align-items: center;
-}
-main .main_1 .rental .left_arrow img {} */
 main .main_1 .rental {
     width: 1374px; margin: 0 auto;
     display: flex; justify-content: space-between;
@@ -294,19 +288,12 @@ main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page 
 main .main_1 .rental .swiper .swiper-wrapper .swiper-slide .swiper_rental .page .swiper_contents button:hover {
     background-color: #005A9C; color: #fff;
 }
-/* 오른쪽 화살표 */
-/* main .main_1 .right_arrow {
-    padding-right: 99px;
-    display: flex; align-items: center;
-    text-align: center;
-}
-main .main_1 .right_arrow img {} */
 main .main_1 {
     padding-bottom: 50px;
     border-bottom: 2px solid #eceaea;
 }
 main .main_1 .rental .swiper .swiper-button-next {
-    color: #929492;
+    color: #929492; 
 }
 main .main_1 .rental .swiper .swiper-button-prev {
     color: #929492;
