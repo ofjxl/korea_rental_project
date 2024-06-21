@@ -1,10 +1,11 @@
 @media screen and (max-width:1120px){
-    .h_bg header .top {width: 1060px;}
+    .h_bg header .top {width: 100%;}
     .h_bg header .top .top_left ul li {margin-right: 40px;}
-    .h_bg header .main_menu {width: 1060px;}
-    .h_bg header .main_menu h1 {margin-right: 64px;}
-    .h_bg header .main_menu h1 {width: 151px; height: 45px;}
+    .h_bg header .main_menu {width: 100%;}
+    .h_bg header .main_menu h1 {
+        width: 151px; margin-right: 64px;
+    }
     .h_bg header .main_menu nav .gnb li {margin-right: 20px;}
     .h_bg header .main_meni nav .gnb li:last-child {margin-right: 0;}
-    .h_bg header .main_menu .main_menu_right a img {width: 26px; height: 26px;}
+    .h_bg header .main_menu .main_menu_right a img {width: 26px;}
 }/* 1374 */
