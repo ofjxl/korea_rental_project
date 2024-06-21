@@ -1,5 +1,6 @@
 /* =============팝업============= */
 .popup {
+    z-index: 999;
     display: flex; flex-flow: column nowrap;
     /* background-color: skyblue;  */
     text-align: right;
@@ -142,9 +143,9 @@
     z-index: 2;
     position: absolute; left: 50%; top: 151px;
     transform: translateX(-50%);
-    /* background: aqua; */
+    background: #fff;
     width: 1374px; margin: 0 auto;
-    display: flex; padding-top: 106px;
+    display: flex; padding-top: 106px; 
     display: none; /* 메인메뉴 서브 가리는 태그 */
 }
 .h_bg header .main_menu nav .gnb li .sub_menu .left {
