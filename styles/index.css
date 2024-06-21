@@ -3,18 +3,17 @@
     display: flex; flex-flow: column nowrap;
     /* background-color: skyblue;  */
     text-align: right;
-    position: fixed; bottom: 20px; right: 10px;
+    position: fixed; bottom: 20px; right: 7px;
 }
 .popup .speech_bubble {
-    width: 253px; height: 64px;
+    width: 253px;
     border-radius: 30px;
     background-color: #0D5CAB;
     margin-bottom: 53px;
-    padding-left: 30px; padding-top: 20px;
-    position: relative;
+    /* padding-left: 30px; padding-top: 20px; */
 }
 .popup .speech_bubble a {
-    display: flex; 
+    display: flex;  align-items: center;
     text-align: center;
 }
 .popup .speech_bubble a span {
@@ -22,8 +21,11 @@
     font-size: 0.875rem; font-weight: 600; letter-spacing: 0.2px;
     line-height: 200%;
     margin-right: 12px;
+    position: relative; left: 30px;
 }
-.popup .speech_bubble a span img {}
+.popup .speech_bubble a img {
+    position: relative; left: 35px; bottom: 33px;
+}
 .popup .inquiry {
     /* border: 1px solid blue; */
     margin-bottom: 15px;
