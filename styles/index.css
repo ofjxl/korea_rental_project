@@ -133,7 +133,7 @@
     display: flex;
 }
 .h_bg header .main_menu nav .gnb li {
-    margin-right: 78px;
+    margin-right: 78px; 
 }
 .h_bg header .main_menu nav .gnb li a {
     color: #444;
