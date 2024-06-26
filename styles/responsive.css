@@ -1,4 +1,5 @@
 @media screen and (max-width:1374px){
+    /* header */
     .h_bg header {width: 100%;}
     .h_bg header .top .top_left ul li {margin-right: 40px;}
     .h_bg header .main_menu {width: 100%;}
@@ -9,11 +10,16 @@
     .main .main_1 .rental .main-slide .swiper-wrapper .swiper-slide .swiper-rental .page .slide_img img {
         width: 641px; 
     }
+    /* swiper 시작 */
 }/* 1374 */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 850px){
+    .h_bg header .main_menu {
+        padding: 40px 16px;
+        height: 50px;
+    }
     .h_bg header .top .top_left ul {display: none;}
     .h_bg header .top .top_right {display: none;}
-    .h_bg header .main_menu h1 a img {width: 94px;}
+    .h_bg header .main_menu h1 a img {width: 125px;}
     .h_bg header .main_menu nav .gnb {display: none;}
     .h_bg header .main_menu .header_right .mobile_main_menu_right {display: flex;}
 }
