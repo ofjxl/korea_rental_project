@@ -12,3 +12,9 @@
         width: 641px; 
     }
 }/* 1374 */
+@media screen and (max-width: 900px){
+    .h_bg header .top .top_left ul {display: none;}
+    .h_bg header .top .top_right {}
+    .h_bg header .main_menu nav .gnb {display: none;}
+    .h_bg header .main_menu .main_menu_right {}
+}
